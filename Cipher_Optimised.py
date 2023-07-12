@@ -91,6 +91,7 @@ while should_continue:
     restart = input("Would you like to restart the cipher program? (yes/no)").lower()
     if restart == "no":
         print("Goodbye")
+        should_continue = False
 
     # if the user enters a shift that is greater than the number of letters in the alphabet?
     # #Try running the program and entering a shift number of 45.
